@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
 }
+.head1 {
+    margin-left: 6%;
+}
 .nav-lists {
     text-align: center;
     display: grid;
@@ -16,5 +19,77 @@ li {
     display: grid;
     grid-template-columns:  auto auto auto auto;
     grid-gap: 7%;
-    margin-right: 2rem;
+    margin-right: 11rem;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.left-side {
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.bee {
+    padding: 1% 66% 1% 1%;
+    color: gold;
+    font-size: 39px;
+}
+.paragraph {
+    padding: 1% 47% 1% 1%;
+}
+.size {
+     margin-bottom: 5%;
+}
+.btn {
+    padding: 3% 3% 2% 3%;
+    background-color: black;
+    color: white;
+    border-top-color: black;
+    border-left-color: black;
+}
+.right-side {
+    margin-right: 5%;
+}
+.bee-remove-png {
+    width: 100%;
+    margin-left: 2%;
+}
+.bee-remove {
+    width: 83%;
+}
+.bee-pot {
+    width: 93%;
+}
+.bee-pot-png {
+    width: 100%;
+}
+.brand-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+}
+.honey {
+    align-content: center;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.honey-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.pot-bee {
+    width: 100%;
+}
+.bee-honey {
+    width: 40%;
+    margin-left: 8%;
+}
+.honey5-wrap {
+    margin-left: -73%;
+}
+.honey6 {
+    width: 100%;
+}
+.honey6-wrap {
+    width: 55%;
 }
