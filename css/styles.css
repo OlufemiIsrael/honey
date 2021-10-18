@@ -93,3 +93,102 @@ li {
 .honey6-wrap {
     width: 55%;
 }
+.wrap {
+    display: grid;
+    grid-gap: 15%;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin-left: 25%;
+}
+.box {
+    text-align: center;
+    font-size: 25px;
+}
+.answer {
+    font-size: 18px;
+}
+.img-wrap {
+    width: 30%;
+    margin-top: 15%;
+}
+.img1 {
+    width: 100%;
+}
+.customers-comment {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.James-comment {
+    border: 1px solid white;
+    background-image: url(../img/Rectangle\ 2.png);
+    margin-left: 5%;
+    text-align: center;
+}
+.sarah-comment {
+    border: 1px solid white;
+    padding: 1% 1% 1% 1%;
+    margin-right: 3%;
+    text-align: center;
+}
+.comment {
+    padding: 1px 1px 1px 1px;
+}
+.about {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.image {
+    width: 40%;
+}
+.image1 {
+    width: 70%;
+}
+.soot {
+    color: gold;
+    font-size: 22px;
+}
+.luxury {
+    font-size: 37px;
+    padding: 0% 55% 0% 0%;
+}
+.para {
+    padding: 0% 44% 1% 0%;
+    font-size: 18px;
+}
+.brag {
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    color: gold;
+}
+.subscription {
+    background-color: rgb(221, 214, 214);
+}
+.newsletter {
+    text-align: center;
+}
+.flex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 22%;
+}
+.img-honey {
+    margin-left: 47%;
+}
+.email-1 {
+    padding: 9% 53% 12% 31%;
+    margin-top: 8%;
+    margin-left: -67%;
+}
+.btn1 {
+    padding: 20px 76px 20px 56px;
+    background-color: black;
+    color: white;
+    margin-top: 8%;
+    margin-left: -87%;
+    font-size: 18px;
+    border-top-color: black;
+    border-left-color: black;
+}
