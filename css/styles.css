@@ -211,8 +211,9 @@ footer {
     padding: 0%;
 }
 .foot {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10%;
 }
 .butt {
     background-color: black;
@@ -221,15 +222,26 @@ footer {
 }
 .list1 {
     font-size: 28px;
+    line-height: 46px;
+}
+.heading-3{
+  margin-left: 24%;  
+}
+.twitter-bird {
+    width: 122%;
+}
+.twitter {
+    width: 100%;
 }
 .instagram {
-    width: 6%;
+    width: 28%;
 }
 .insta {
     width: 100%;
 }
 .facebook {
-    width: 5%;
+    width: 21%;
+    margin-left: -77%;
 }
 .fb {
     width: 100%;
@@ -237,4 +249,15 @@ footer {
 .list4 {
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-top: -21%;
+}
+.copy {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: -18px;
+    padding-bottom: 10px;
+}
+.copyright {
+    padding-top: 2%;
 }
