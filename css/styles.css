@@ -1,26 +1,83 @@
-:root{
-    --black:#1D1B1B;
-    --signupBlack:#333;
-    --orange: #F68A16;
-    --footerBGColor: rgba(246,138,22, 0.8);
-    --footerBGColorMobile: rgba(160,112,46, 0.9);
+:root {
+  --black: #1d1b1b;
+  --signupBlack: #333;
+  --orange: #f68a16;
+  --footerBGColor: rgba(246, 138, 22, 0.8);
+  --footerBGColorMobile: rgba(160, 112, 46, 0.9);
+  --tablet: 768px;
+  --desktop: 1024px;
+  --bodyPadding: 0 5vw;
 }
-*,*::after,*::before{
-    color: #000;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    border: 0;
-    box-sizing: inherit;
+*,
+*::after,
+*::before {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
 }
 
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
 }
 
-body{
-    background-color: #e5e5e5;
+body {
+  background-color: #e5e5e5;
+  width: 100vw;
+  overflow: auto;
 }
-header{
-    min-height: 75px;
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  min-height: 75px;
+  padding: var(--bodyPadding);
+  position: fixed;
+  width: 100%;
+}
+nav{
+    width: 100%;
+}
+.logo {
+  min-width: 69px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.services,
+.user, .mobileTimesBar > svg:nth-child(2) {
+  display: none;
+}
+.mobileTimesBar svg {
+  height: 20px;
+}
+
+@media screen and (min-width:768px) {
+.user{
+    display: flex;
+}
+}
+@media screen and (min-width:1024px) {
+  .mobileTimesBar {
+    display: none;
+  }
+  .services{
+      display: flex;
+  }
+  .services a{
+      padding-right: 9px;
+  }
+  .services a:last-child{
+      padding-right: 0;
+  }
+
 }
