@@ -1,3 +1,28 @@
+/* .header {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-lists {
+    display: none;
+}
+.bee {
+    padding: 1% 66% 1% 1%;
+    color: gold;
+    font-size: 39px;
+}
+.paragraph {
+    padding: 1% 47% 1% 1%;
+}
+.size {
+    margin-bottom: 5%;
+}
+.btn {
+   padding: 3% 3% 2% 3%;
+   background-color: black;
+   color: white;
+   border-top-color: black;
+   border-left-color: black;
+} */
 
 .header {
     display: flex;
