@@ -4,6 +4,8 @@
   --orange: #f68a16;
   --footerBGColor: rgba(246, 138, 22, 0.8);
   --footerBGColorMobile: rgba(160, 112, 46, 0.9);
+  --headerHeight:75px;
+  --headerMargin:2vh;
   --tablet: 768px;
   --desktop: 1024px;
   --bodyPadding: 0 5vw;
@@ -28,9 +30,10 @@ html {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #fff;
   width: 100vw;
   overflow: auto;
+  padding-top: var(--headerHeight);
 }
 
 .flex {
@@ -38,12 +41,22 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+img {
+  width: 100%;
+}
 
+
+/** Header*/
 header {
-  min-height: 75px;
+  min-height: var(--headerHeight);
   padding: var(--bodyPadding);
   position: fixed;
   width: 100%;
+  top: var(--headerMargin);
 }
 nav{
     width: 100%;
@@ -59,6 +72,11 @@ nav{
 }
 .mobileTimesBar svg {
   height: 20px;
+}
+.btn{
+  padding: 12px 15px 10px 16px;
+  background-color: var(--black);
+  color: #fff;
 }
 
 @media screen and (min-width:768px) {
@@ -80,4 +98,59 @@ nav{
       padding-right: 0;
   }
 
+}
+/**Section beeHoney*/
+section.beeHoney{
+    background-image: url("/img/bee-removebg-preview 1.png");
+    background-repeat: no-repeat;
+    margin-right: 3%;
+    background-size: 30% 41%;
+    background-position:right top;
+    padding: var(--bodyPadding);
+    padding-top: calc(2* var(--headerHeight));
+    }
+.beeHoney img{
+    object-fit: contain; 
+    width: 43%;
+    
+}
+/***/
+
+/* Section  wrapBox*/
+.brand{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.honey {
+  margin: 2% 7% 0% 5%;
+}
+.bee-honey {
+  width: 25%;
+}
+.honey6-wrap {
+  width: 20%;
+}
+@media screen and (max-width: 1024px) {
+  
+}
+/* Section customerCare**/
+.wrap {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 26%;
+  line-height: 1.5rem;
+}
+.bee-img {
+  width: 20%;
+  margin-top: 3%;
+}
+ .man, .lady {
+  width: 16%;
+  align-items: center;
+}
+.James-comment , .sarah-comment {
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 5%;
 }
