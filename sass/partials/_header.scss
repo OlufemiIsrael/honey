@@ -1,0 +1,50 @@
+  /** Header*/
+  header {
+    min-height: var(--headerHeight);
+    padding: var(--bodyPadding);
+    position: fixed;
+    width: 100%;
+    top: var(--headerMargin);
+  }
+  nav{
+      width: 100%;
+  }
+  .logo {
+    min-width: 69px;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .services,
+  .user, .mobileTimesBar > svg:nth-child(2) {
+    display: none;
+  }
+  .mobileTimesBar svg {
+    height: 20px;
+  }
+  .btn{
+    margin-top: 2%;
+    padding: 12px 15px 10px 16px;
+    background-color: var(--black);
+    color: #fff;
+  }
+  
+  @media screen and (min-width:768px) {
+  .user{
+      display: flex;
+  }
+  }
+  @media screen and (min-width:1024px) {
+    .mobileTimesBar {
+      display: none;
+    }
+    .services{
+        display: flex;
+    }
+    .services a{
+        padding-right: 9px;
+    }
+    .services a:last-child{
+        padding-right: 0;
+    }
+  
+  }

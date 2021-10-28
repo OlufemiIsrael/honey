@@ -1,0 +1,132 @@
+@import "partials/global";
+@import "partials/header"; 
+  
+
+  /**Section beeHoney*/
+  section.beeHoney{
+      background-image: url("/img/bee-removebg-preview 1.png");
+      background-repeat: no-repeat;
+      margin-right: 3%;
+      background-size: 30% 41%;
+      background-position:right top;
+      padding: var(--bodyPadding);
+      padding-top: calc(2* var(--headerHeight));
+      }
+  .beeHoney img{
+      object-fit: contain; 
+      width: 43%;
+      
+  }
+  /***/
+  
+  /* Section  wrapBox*/
+  .brand{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .honey {
+    margin: 2% 7% 0% 5%;
+  }
+  .bee-honey {
+    width: 25%;
+  }
+  .honey6-wrap {
+    width: 20%;
+  }
+  @media screen and (max-width: 1024px) {
+    
+  }
+  /* Section customerCare**/
+  .wrap {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 26%;
+    line-height: 1.5rem;
+  }
+  .bee-img {
+    width: 20%;
+    margin-top: 3%;
+  }
+   .man, .lady {
+    width: 16%;
+    align-items: center;
+  }
+  .James-comment , .sarah-comment {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 5%;
+  }
+  /*section About */
+  .bee-remove-png {
+     width: 65%;
+  }
+  .bee-remove-png-1 {
+    width: 35%;
+  }  
+  /*  */
+  /* section Subscription */
+  section.subscription {
+    background-color: lightgray;
+  }
+  .newsletter {
+    text-align: center;
+  }
+  .img-honey {
+    width: 13%;
+  }
+  .accountCreate {
+    justify-content: space-evenly;
+  }
+  input#email {
+    padding: 10px 43% 25px 14px;
+    font-size: 18px;
+    margin-left: -44%;
+    background-color: white;
+  }
+  .btn1 {
+    font-size: 18px;
+    margin-left: -12%;
+    padding: 16px 61px 20px 40px;
+    background-color: var(--black);
+    color: #fff;
+  }
+  /*  */
+  /* section boxWrap */
+  .FAQ {
+    text-align: center;
+  }
+  .showAll {
+    width: 3%;
+  }
+  .uses-of-honey {
+    border-style: outset;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .imprtance {
+    box-shadow: 10px 10px 5px grey;
+  }
+  /*  */
+//    Footer/
+.foot {
+  justify-content: space-around;
+}
+.foot-wrap4 {
+    .apple {
+        width: 35%;
+    }
+    .google {
+        width: 25%;
+    }
+    .wrap5 {
+        .insta {
+            width: 7%;
+        }
+        .fb {
+            width: 5%;
+        }
+    }
+}

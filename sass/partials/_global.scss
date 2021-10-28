@@ -1,0 +1,50 @@
+:root {
+    --black: #1d1b1b;
+    --signupBlack: #333;
+    --orange: #f68a16;
+    --footerBGColor: rgba(246, 138, 22, 0.8);
+    --footerBGColorMobile: rgba(160, 112, 46, 0.9);
+    --headerHeight:75px;
+    --headerMargin:2vh;
+    --tablet: 768px;
+    --desktop: 1024px;
+    --bodyPadding: 0 5vw;
+  }
+  *,
+  *::after,
+  *::before {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+  }
+  
+  body {
+    background-color: #fff;
+    width: 100vw;
+    overflow: auto;
+    padding-top: var(--headerHeight);
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  img {
+    width: 100%;
+  }
